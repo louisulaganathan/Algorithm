@@ -1,6 +1,6 @@
 # Algorithm
 
-<code>
+```
 public class Solution
 {
     public IList<string> FizzBuzz(int n)
@@ -35,7 +35,7 @@ public class Solution
         return answer;
     }
 }
-</code>
+```
 
 Time complexity: O(n)
 The main computational part of the function is the for loop that iterates over all integers from 1 to n. Inside the loop, the operations (modulus checks, assignments) are all constant time. Hence, the time complexity is determined by the number of iterations, which is n.
