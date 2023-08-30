@@ -1,5 +1,42 @@
 # Algorithm
 
+<code>
+public class Solution
+{
+    public IList<string> FizzBuzz(int n)
+    {
+        string[] answer = new string[n];
+
+        for (int i = 1; i <= n; i++)
+        {
+            bool isDivisibleBy3 = i % 3 == 0;
+            bool isDivisibleBy5 = i % 5 == 0;
+
+            var index = i - 1;
+
+            if (isDivisibleBy3 && isDivisibleBy5)
+            {
+                answer[index] = "FizzBuzz";
+            }
+            else if (isDivisibleBy3)
+            {
+                answer[index] = "Fizz";
+            }
+            else if (isDivisibleBy5)
+            {
+                answer[index] = "Buzz";
+            }
+            else
+            {
+                answer[index] = i.ToString();
+            }
+        }
+
+        return answer;
+    }
+}
+</code>
+
 Time complexity: O(n)
 The main computational part of the function is the for loop that iterates over all integers from 1 to n. Inside the loop, the operations (modulus checks, assignments) are all constant time. Hence, the time complexity is determined by the number of iterations, which is n.
 
