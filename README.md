@@ -1,5 +1,24 @@
-# Algorithm
+# Data Structures and Algorithm
 
+Data Structures:
+================
+&emsp; Defined as particular way of storing and organizing data in our deveices to use the data effectively and efficiently.\n
+&emsp; Main object of using DS is to reduce the time and space complexity.\n
+
+Linkedlist\n
+Matrix/Grid\n
+Stack\n
+Queue\n
+Graph\n
+Array\n
+Hash\n
+Heap\n
+Tree\n
+String\n
+
+Algorithm:\n
+---------
+&emsp; Defined as a process or set of welldefined instructions that are used to solve the group of poblems or perform specific calculations.
 ```
 public class Solution
 {
