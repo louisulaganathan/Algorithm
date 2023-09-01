@@ -21,6 +21,28 @@ Data Structures:
 ------------------
 &emsp; Defined as a process or set of welldefined instructions that are used to solve the group of poblems or perform specific calculations.
 <br/>
+
+
+<br/>Time complexity:
+====================
+
+<br/>&emsp;The time complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function interms of the length of the input.
+
+<br/>Space Complexity:
+=================
+<br/>&emsp;The space complexity of an algorithm quantifies the amount of space taken by an algorithm to run as a function interms of the length of the input.
+
+<br/>(1) A fixed part: It is independent of the input size. It includes memory for instructions (code), constants, variables, etc.
+
+<br/>(2) A variable part: It is dependent on the input size. It includes memory for recursion stack, referenced variables, etc.
+
+<br/>Asymphotic Notations
+==========================
+<br/>Big O O(1) - Best, <br/>O(logn) - Good ,<br/>O(n) - Fair,<br/>O(nlogn)-Bad, <br/>O(n!)/O(C<sup>n</sup>)/O(n<sup>c</sup>) - worst
+<br/>Big Omega(Ω) 
+<br/>Big theta(θ)
+
+
 ```
 public class Solution
 {
