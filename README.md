@@ -2,7 +2,7 @@
 
 Data Structures:
 ================
-&emsp; Defined as particular way of storing and organizing data in our deveices to use the data effectively and efficiently.\n
+&emsp; Defined as particular way of storing and organizing data in our deveices to use the data effectively and efficiently.<br/>
 &emsp; Main object of using DS is to reduce the time and space complexity.\n
 
 Linkedlist\n
