@@ -2,23 +2,25 @@
 
 Data Structures:
 ================
-&emsp; Defined as particular way of storing and organizing data in our deveices to use the data effectively and efficiently.<br/>
-&emsp; Main object of using DS is to reduce the time and space complexity.\n
+<br/>&emsp; Defined as particular way of storing and organizing data in our deveices to use the data effectively and efficiently.
+<br/>&emsp; Main object of using DS is to reduce the time and space complexity.
 
-Linkedlist\n
-Matrix/Grid\n
-Stack\n
-Queue\n
-Graph\n
-Array\n
-Hash\n
-Heap\n
-Tree\n
-String\n
+<br/>Linkedlist<br/>
+<br/>Matrix/Grid
+<br/>Stack
+<br/>Queue
+<br/>Graph
+<br/>Array
+<br/>Hash
+<br/>Heap
+<br/>Tree
+<br/>String
 
-Algorithm:\n
----------
+
+<br/>Algorithm:<br/>
+------------------
 &emsp; Defined as a process or set of welldefined instructions that are used to solve the group of poblems or perform specific calculations.
+<br/>
 ```
 public class Solution
 {
