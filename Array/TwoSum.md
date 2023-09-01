@@ -31,3 +31,6 @@ public class Solution {
     }
 }
 ```
+Foreach, indexof () provided by framework and has O(n) complexity
+we have to use only the language provided properties.
+
