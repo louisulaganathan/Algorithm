@@ -40,6 +40,24 @@ public class Node
 <br/>Circular  -Last node points to the Head of LL
 <br/>Double  - Each node has two pointers. 1- previous node 2- next node [web browser[next previous], undo & redo]
 
+<br/>Matrix/Grid
+================
+<br/>A matrix represents a collection of numbers arranged in an order of rows and columns. It is necessary to enclose the elements of a matrix in parentheses or brackets.
+<br/>
+![image](https://github.com/louisulaganathan/Algorithm/assets/74425320/c9e290b6-71d2-4865-acc8-f69ce2fbb56f)
+<br/>M[2][3] = 6.
+
+<br/>Complex DS:
+===========
+<br/>Stack:
+======
+<br/>Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) 
+<br/>A stack is a linear data structure in which the insertion of a new element and removal of an existing element takes place at the same end represented as the top of the stack.
+<br/>![image](https://github.com/louisulaganathan/Algorithm/assets/74425320/5b250652-8ba1-4380-a086-d48b05552b8f)
+
+
+
+
 
 
 
