@@ -70,7 +70,23 @@ Implementation of Stack:
 =======================
 <br/>A stack can be implemented using an array or a linked list. In an array-based implementation, the push operation is implemented by incrementing the index of the top element and storing the new element at that index. The pop operation is implemented by decrementing the index of the top element and returning the value stored at that index. In a linked list-based implementation, the push operation is implemented by creating a new node with the new element and setting the next pointer of the current top node to the new node. The pop operation is implemented by setting the next pointer of the current top node to the next node and returning the value of the current top node.
 
+<br/>Queue:
+=============
+<br/>A Queue is a linear structure which follows First In First Out (FIFO) approach in its individual operations.
 
+![image](https://github.com/louisulaganathan/Algorithm/assets/74425320/250861fb-ed72-4e08-8400-1ab21c8e828b)
+A queue is a linear data structure that is open at both ends and the operations are performed in First In First Out (FIFO) order.
+
+We define a queue to be a list in which all additions to the list are made at one end, and all deletions from the list are made at the other end. 
+Basic Operations for Queue in Data Structure:
+Some of the basic operations for Queue in Data Structure are:
+
+Enqueue() – Adds (or stores) an element to the end of the queue..
+Dequeue() – Removal of elements from the queue.
+Peek() or front()- Acquires the data element available at the front node of the queue without deleting it.
+rear() – This operation returns the element at the rear end without removing it.
+isFull() – Validates if the queue is full.
+isNull() – Checks if the queue is empty.
 
 
 
