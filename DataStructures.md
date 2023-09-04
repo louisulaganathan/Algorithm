@@ -110,6 +110,22 @@ Hashing
 Hashing refers to the process of generating a fixed-size output from an input of variable size using the mathematical formulas known as hash functions. This technique determines an index or location for the storage of an item in a data structure.
 
 
+Non Linear Data Structures:
+============================
+
+Tree 
+
+The root is the first node of the tree and the leaves are the ones at the bottom-most level. The special characteristic of a tree is that there is only one path to go from any of its nodes to any other node.
+Graph
+
+**Searching algorithms** are used to find a specific element in an array, string, linked list, or some other data structure. 
+
+**Linear Search** – In this searching algorithm, we check for the element iteratively from one end to the other.
+**Binary Search** – In this type of searching algorithm, we break the data structure into two equal parts and try to decide in which half we need to find for the element. 
+**Ternary Search ** – In this case, the array is divided into three parts, and based on the values at partitioning positions we decide the segment where we need to find the required element.
+
+
+
 
 
 
