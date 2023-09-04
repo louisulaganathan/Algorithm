@@ -89,6 +89,26 @@ isFull() – Validates if the queue is full.
 isNull() – Checks if the queue is empty.
 
 
+HEAP:
+=====
+A Heap is a special Tree-based Data Structure in which the tree is a complete binary tree.
+Max-heap
+Min-Heap
+
+Max-Heap: 
+
+In this heap, the value of the root node must be the greatest among all its child nodes and the same thing must be done for its left and right sub-tree also.
+
+Min-Heap: 
+
+In this heap, the value of the root node must be the smallest among all its child nodes and the same thing must be done for its left ans right sub-tree also.
+
+![image](https://github.com/louisulaganathan/Algorithm/assets/74425320/58e7df2a-bbea-41a8-80dd-7526d4415892)
+
+Hashing
+============
+Hashing refers to the process of generating a fixed-size output from an input of variable size using the mathematical formulas known as hash functions. This technique determines an index or location for the storage of an item in a data structure.
+
 
 
 
