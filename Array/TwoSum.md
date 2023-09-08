@@ -34,3 +34,22 @@ public class Solution {
 Foreach, indexof () provided by framework and has O(n) complexity
 we have to use only the language provided properties.
 
+```
+public class Solution {
+    public int[] TwoSum(int[] nums, int target) {
+        Dictionary<int, int>  m= new ();
+        m.Add(nums[0],0);
+        for(var i=1;i<nums.Length;i++)
+        {
+            var pairNum = target-nums[i];
+            if(!m.ContainsKey(pairNum))
+                m.TryAdd(nums[i], i);
+            else
+                return new []{m[pairNum],i};
+
+        }
+        return new[]{-1,-1};
+    }
+}
+```
+
